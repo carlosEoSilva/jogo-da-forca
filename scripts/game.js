@@ -36,7 +36,7 @@ const endGame= ()=>{
 
 // iniciar partida
 const start= ()=>{
-	body.style.backgroundColor= '#6495ed';
+	body.style.backgroundColor= '#2a416c';
 	doll.setAttribute('src', 'images/forca/forca-0.png');
 	
 	let roundRiddle= riddles[Math.floor(Math.random() * (riddles.length - 1))];
